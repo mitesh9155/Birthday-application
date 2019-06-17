@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mike"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="19dp"
+        android:text="HAPPY BIRTHDAY APPLICATION"
+        android:textColor="#FFF01616"
+        android:textSize="25dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Q . Guess  whose  birthday's today?"
+        android:textSize="20dp"
+        android:textColor="#FFFF00"
+        android:layout_margin="8dp"
+        />
+
+    <ImageView
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ama" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dan Futterman"
+        android:textSize="20dp"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shoaib Ibrahim"
+        android:textSize="20dp"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amaal Mallik"
+        android:textSize="20dp"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ashish Vidhyarthi"
+        android:textSize="20dp"/>
+
+</LinearLayout>
